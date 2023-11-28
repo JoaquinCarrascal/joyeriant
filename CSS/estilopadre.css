@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: Nobile-Italic;
+}
+@font-face {
+    font-family: Nobile-Italic;
+    src: url(../FUENTES/Nobile-Italic.ttf);
+}
+
+.envoltorio{
+    width: 100%;
+    margin: 0 auto;
+    border: #8C6E4A solid 1.5px;
+}
+/*Header*/
+.envoltorio header img{
+    width: 100%;
+}
+/*------------------------*/
+/*Hoja main*/
+.envoltorio .contenido{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: row;
+    min-height: 1000px;
+    border-top: #8C6E4A solid 1.8px;
+    border-bottom: #8C6E4A solid 1.8px;
+}
+.contenido main h2 {
+    text-align: center;
+    font-size: 35pt;
+}
+.contenido aside{
+    padding: 0px 15px 0px;
+}
+.contenido #asizq{
+    flex: 1 1 20%;
+    background-color: #E0E1E6;
+}
+.contenido main{
+    padding: 0px 8px 0px;
+    flex: 1 1 60%;
+    background-color: #EBEBEB;
+    border-right: #8C6E4A solid 1.8px;
+    border-left: #8C6E4A solid 1.8px;
+}
+/*------------------------*/
+/*Footer*/
+.envoltorio footer #contenidofooter{
+    display: flex;
+    align-items: safe;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ffefe0;
+    color:#573C09;
+}
+#contenidofooter section{
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+#contenidofooter section a{
+    color:#8C6E4A;
+}
+#contenidofooter #ogcont{
+    border-right: #573C09 solid 0.5px;
+}
+#contenidofooter #contactrrss{
+    border-left: #573C09 solid 0.5px;
+}
+/*------------------------*/
+/*aside derecha con publicidad*/
+.contenido #asdech{
+    flex: 1 1 20%;
+    background-color: #E0E1E6;
+}
+#publicidadsect{
+    margin: 60px auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#publicidadsect .publi{
+    border: #573C09 solid 1px;
+    margin: 20px auto;
+    min-width: 150px;
+    min-height: 150px;
+}
+#publicidadsect #anuno{
+    background-image: url(../IMAGENES/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+}
+#publicidadsect #andos{
+    background-image: url(../IMAGENES/2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+}
+#publicidadsect #antres{
+    background-image: url(../IMAGENES/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+}
+/*------------------------*/

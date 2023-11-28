@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: Nobile-Italic;
+}
+@font-face {
+    font-family: Nobile-Italic;
+    src: url(../FUENTES/Nobile-Italic.ttf);
+}
+.envoltorio{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.envoltorio main img{
+    width: 100%;
+    border: #573C09 solid 0.5px;
+    margin: 0%;
+}
+.envoltorio footer #contenidofooter{ 
+    border: #573C09 solid 0.5px;
+    display: flex;
+    align-items: safe;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ffefe0;
+    color:#573C09;
+    margin-top: 0%;
+}
+#contenidofooter section{
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+#contenidofooter section a{
+    color:#8C6E4A;
+}
+#contenidofooter #ogcont{
+    border-right: #573C09 solid 0.5px;
+}
+#contenidofooter #contactrrss{
+    border-left: #573C09 solid 0.5px;
+}
+
