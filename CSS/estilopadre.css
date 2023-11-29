@@ -89,21 +89,21 @@
     min-height: 150px;
 }
 #publicidadsect #anuno{
-    background-image: url(../IMAGENES/1.png);
+    background-image: url(../IMAGENES/anuncios/masj.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #ffefe0;
 }
 #publicidadsect #andos{
-    background-image: url(../IMAGENES/2.png);
+    background-image: url(../IMAGENES/anuncios/prim.jpg);
     background-position: center;
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
-    background-color: #ffefe0;
+    background-color:#ffefe0;
 }
 #publicidadsect #antres{
-    background-image: url(../IMAGENES/1.png);
+    background-image: url(../IMAGENES/anuncios/viaj.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
